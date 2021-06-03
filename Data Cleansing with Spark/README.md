@@ -8,14 +8,14 @@ This is a transactional data set which contains all the transactions occurring b
 
 The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
-*InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
-Description: Product (item) name. Nominal.
-Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
-UnitPrice: Unit price. Numeric, Product price per unit in sterling.
-CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
-Country: Country name. Nominal, the name of the country where each customer resides.
+- InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+- StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+- Description: Product (item) name. Nominal.
+- Quantity: The quantities of each product (item) per transaction. Numeric.
+- InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+- UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+- CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+- Country: Country name. Nominal, the name of the country where each customer resides.
 
 ##  ลง Pyspark และเชื่อมต่อ Google Colab กับ Google Drive
 * เชื่อมต่อ Google Drive
