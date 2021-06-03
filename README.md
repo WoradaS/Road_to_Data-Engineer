@@ -12,7 +12,34 @@
    * Convert to Pandas
 - Join the data
    * Save to CSV
- 
+
+## - Data Cleansing with Spark
+###  ลง Pyspark และเชื่อมต่อ Google Colab กับ Google Drive
+* เชื่อมต่อ Google Drive
+### Load data
+* Data Profiling
+* Median of Quantity
+* Summary
+### EDA - Exploratory Data Analysis
+* Non-Graphical EDA
+* Graphical EDA
+  * Boxplot
+  * Histogram
+  * Scatterplot
+  * Plotly - interactive chart
+  * Type Conversion
+### Data Cleansing with Spark
+* Anomalies Check
+  * Syntactical Anomalies ( error sytex )
+    * Lexical errors เช่น พิมพ์ผิด
+  * Semantic Anomalies
+    * Integrity constraints: ค่าอยู่นอกเหนือขอบเขตของค่าที่รับได้ เช่น Stockcode: ค่าจะต้องเป็นตัวเลข 5 ตัว
+    * Regular exprassion
+    * Missing values การเช็คและแก้ไข Missing Values (หากจำเป็น)
+### Clean Data with Spark SQL
+### Save cleaned data เป็น CSV
+
+
 ## - Data Pipeline with Airflow
 
 * simple
